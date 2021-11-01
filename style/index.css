@@ -70,7 +70,7 @@ nav{
     position:fixed;
     flex-direction: column;
     width: 100%;
-    height: 10%;
+    height: 12%;
     background-color: #17252A;
     background-image: url('../kame.png');
     background-repeat: no-repeat;
@@ -78,7 +78,14 @@ nav{
     background-position: center;
     background-size: contain;
     background-position: left;
-    
+}
+button {
+    border-radius: 10px;
+    padding:.5% 1%;
+    color: #DEF2F1;
+    background-color: #2B7A78;
+    font-size: 1.5rem;
+    font-weight: bold
 }
 #top{
     padding-top: 5%;
@@ -169,7 +176,71 @@ a:visited {
     }
 
     @media (max-width: 500px){
-
+        nav{
+            justify-content: center;
+            align-items: center;
+            height: 20%;
+            width: 100%;
+        }
+        .name{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        h1{
+            width: 80%;
+            padding: 1%;
+            margin: 0;
+            text-align: center;
+        }
+        .links{
+            padding:0;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .navlinks button{
+            border-radius: 5px;
+            width: 100%;
+            padding:0%;
+        }
+        body{
+            width: 100%
+        }
+        #top {
+            margin: 0;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding:0;
+            padding-left: 10%;
+            padding-top: 40%;
+            width: 90%;
+            height: auto;
+        }
+        #top div.about{
+            
+            width: 100%;
+            height: 50vh;
+        }
+        div.bg-img {
+            width: 80%;
+        }
+        .text{
+            width:100%;
+        }
+        #top h2{
+            font-size: 5rem;
+        }
+        #top p{
+            font-size: 2rem;
+        }
+        h4{
+            font-size: 3rem;
+        }
     }
 
-    x
